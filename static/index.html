@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>drop for vision</title>
+        <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/dropzone.js"></script>
+        <link rel="stylesheet" href="css/dropzone.css">
+    </head>
+
+    <body>
+      <p>Drop it like it's hot</p>
+      <form id="upload-widget" method="post" action="/upload" class="dropzone">
+        <div class="fallback">
+          <input name="file" type="file" />
+        </div>
+      </form>
+      <script type="text/javascript" src="js/socket.io-1.2.0.js"></script>
+      <script type="text/javascript" src="js/client_index.js"></script>
+    </body>
+</html>

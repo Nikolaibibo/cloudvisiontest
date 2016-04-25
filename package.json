@@ -1,0 +1,32 @@
+{
+  "name": "vision-api-express",
+  "version": "1.0.0",
+  "description": "uses cloud api with node and express",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.zootech.ninja/nbockholt/vision-api-express.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "cloud",
+    "vision",
+    "api"
+  ],
+  "author": "Nikolai Bockholt",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "fs": "0.0.2",
+    "image-size": "^0.4.0",
+    "jsonfile": "^2.2.3",
+    "multer": "^1.1.0",
+    "request": "^2.67.0",
+    "socket.io": "^1.3.7",
+    "string.prototype.startswith": "^0.2.0"
+  }
+}
